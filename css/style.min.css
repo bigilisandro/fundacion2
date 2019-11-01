@@ -1,0 +1,157 @@
+.view,body,html{height:100%}.carousel{height:50%}.carousel .carousel-inner,.carousel .carousel-inner .active,.carousel .carousel-inner .carousel-item{height:100%}@media (max-width:776px){.carousel{height:100%}}.navbar{background-color:rgba(0,0,0,.2)}.page-footer,.top-nav-collapse{background-color:#929FBA}@media only screen and (max-width:768px){.navbar{background-color:#929FBA}}
+
+.logo-navbar {
+  width: 70px;
+  height: 70px;
+}
+
+
+
+/* The colour of the indicators */
+.blog .carousel-indicators li {
+    background: #a3a3a3;
+    border-radius: 50%;
+    width: 10px;
+    height: 2px;
+}
+
+.blog .carousel-indicators .active {
+background: #707070;
+}
+/* BOTÓN DE WHATSAPP */
+.btn-floating1.fixed-bottom1 {
+  position: fixed;
+  top: auto;
+  bottom: 20px;
+  right: 20px; }
+
+.btn-floating1 {
+  background-color: #4dc247;
+  border-radius: 50%;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+  border: 0;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 10px;
+  right: 5px;
+  padding: 5px;
+  font-size: 18px;
+  z-index: 100;
+  fill: white; }
+
+.visible-when-content-ready1 {
+  visibility: visible !important; }
+
+.quienes {
+	background-color: #DECFE7;
+}
+.vision, .valores {
+	background-color: #E8E4C0;
+
+}
+.mdb-color {
+	background-color: #929FBA!important;
+}
+
+#carousel3d .carousel-3d-slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  background-color: #fff;
+  padding: 10px;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+#carousel3d .carousel-3d-slide.current {
+  background-color: #333;
+  color: #fff;
+}
+#carousel3d .carousel-3d-slide.current span {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+p, h1, h2, h3, h4, h5, h6, a, button {
+  font-family: 'Oswald', sans-serif;
+  font-weight: normal;
+}
+.btn-outline-white {
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  transition-duration: 0.3s; 
+}
+.btn-outline-white:hover {
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+  transform: scale(1.1);
+  background-color: #D5D4DC;
+}
+.nav-item {
+  transition-duration: 0.1s;
+  transition-property: transform;
+}
+.nav-item:hover {
+  transform: translateY(-5px);
+}
+
+.how-to-color {
+  background-color: #e0e0e0;
+}
+.map-container-section {
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.map-container-section iframe {
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
+/* Campañas */
+
+.gallery {
+-webkit-column-count: 3;
+-moz-column-count: 3;
+column-count: 3;
+-webkit-column-width: 33%;
+-moz-column-width: 33%;
+column-width: 33%; }
+.gallery .pics {
+-webkit-transition: all 350ms ease;
+transition: all 350ms ease; }
+.gallery .animation {
+-webkit-transform: scale(1);
+-ms-transform: scale(1);
+transform: scale(1); }
+
+@media (max-width: 450px) {
+.gallery {
+-webkit-column-count: 1;
+-moz-column-count: 1;
+column-count: 1;
+-webkit-column-width: 100%;
+-moz-column-width: 100%;
+column-width: 100%;
+}
+}
+
+@media (max-width: 400px) {
+.btn.filter {
+padding-left: 1.1rem;
+padding-right: 1.1rem;
+}
+}
