@@ -17,9 +17,6 @@
    <!-- Logo Pestaña -->
   <link rel="icon" type="image/png" href="img/logo.png">
   <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-  <script src='//production-assets.codepen.io/assets/common/stopExecutionOnTimeout-b2a7b3fe212eaa732349046d8416e00a9dec26eb7fd347590fbced3ab38af52e.js'></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.7/vue.js'></script>
   <script src='https://rawgit.com/Wlada/vue-carousel-3d/master/dist/vue-carousel-3d.min.js'></script>
   <style type="text/css">
@@ -87,18 +84,22 @@
               <a class="nav-link" href="index.html">INICIO
                 <span class="sr-only">(current)</span>
               </a>
-            </li>
+              </li>
             <li class="nav-item">
-              <a class="nav-link" href="voluntariado-corporativo.html">Voluntariado corporativo</a>
+              <a class="nav-link" href="#quienes">Quienes somos</a>
+            </li>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="campañas.html">Campañas</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="taller-rodante.html">Taller Rodante</a>
+              <a class="nav-link" href="galerias/a-quienes-ayudamos.html">A quienes ayudamos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="a-quienes-ayudamos.html">A quienes ayudamos</a>
+              <a class="nav-link" href="galerias/taller-rodante.html">Taller Rodante</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="galerias/voluntariado-corporativo.html">Voluntariado corporativo</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="contacto.html">Contacto</a>
@@ -166,11 +167,8 @@
                 FUNDACIÓN CASA GRANDE
               </h1>
 
-              <p>
-                Asociate a Casa Grande y ayudanos a ayudar!
-              </p>
 
-              <a target="_blank" href="https://donaronline.org/fundacion-casa-grande-solidario/hacete-socio-de-fundacion-casa-grande-solidario" class="btn btn-outline-white btn-lg">QUIERO COLABORAR!
+              <a target="_blank" href="https://donaronline.org/fundacion-casa-grande-solidario/hacete-socio-de-fundacion-casa-grande-solidario" class="btn btn-outline-white btn-lg">ASOCIATE Y AYÚDANOS A AYUDAR
               </a>
             </div>
             <!-- Content -->
@@ -196,12 +194,9 @@
                 FUNDACIÓN CASA GRANDE
               </h1>
 
-              <p>
-                Asociate a Casa Grande y ayudanos a ayudar!
-              </p>
 
 
-              <a target="_blank" href="https://donaronline.org/fundacion-casa-grande-solidario/hacete-socio-de-fundacion-casa-grande-solidario" class="btn btn-outline-white btn-lg">QUIERO COLABORAR!
+              <a target="_blank" href="https://donaronline.org/fundacion-casa-grande-solidario/hacete-socio-de-fundacion-casa-grande-solidario" class="btn btn-outline-white btn-lg">ASOCIATE Y AYÚDANOS A AYUDAR
                 
               </a>
             </div>
@@ -228,12 +223,8 @@
                 FUNDACIÓN CASA GRANDE
               </h1>
 
-              <p>
-                Asociate a Casa Grande y ayudanos a ayudar!
-              </p>
 
-
-              <a target="_blank" href="https://donaronline.org/fundacion-casa-grande-solidario/hacete-socio-de-fundacion-casa-grande-solidario" class="btn btn-outline-white btn-lg">QUIERO COLABORAR!
+              <a target="_blank" href="https://donaronline.org/fundacion-casa-grande-solidario/hacete-socio-de-fundacion-casa-grande-solidario" class="btn btn-outline-white btn-lg">ASOCIATE Y AYÚDANOS A AYUDAR
               </a>
             </div>
             <!-- Content -->
@@ -265,12 +256,12 @@
 
   </header>
 
-  <main>
+  <main class="background-color">
   <!--Section: Main features & Quick Start-->
   <div class="container">
       <section>
 
-        <h2 class="h1-responsive font-weight-bold text-center my-4">Novedades</h2>
+        <h2 class="h1-responsive font-weight-bold text-center my-4 blue-color">Novedades</h2>
 
         <div class="album py-5 bg-light">
     <div class="container">
@@ -281,10 +272,10 @@
             <img src="img/novedades/taller-rodante.jpg" style="width: 100%; height: 225;" class="card-img-top">
             <!-- {% include icons/placeholder.svg width="100%" height="225" background="#55595c" color="#eceeef" class="card-img-top" text="Thumbnail" %} -->
             <div class="card-body">
-              <p class="card-text">Vamos a las instituciones con las que colaboramos para compartir distintos espacios de capacitación y aprendizaje junto a las personas que asisten. Pueden ser talleres artísticos, culinarios, literarios pero también podés acercarnos tu propuesta y la adaptamos a las necesidades de la institución.</p>
+              <p class="blue-color">Vamos a las instituciones con las que colaboramos para compartir distintos espacios de capacitación y aprendizaje junto a las personas que asisten. Pueden ser talleres artísticos, culinarios, literarios pero también podés acercarnos tu propuesta y la adaptamos a las necesidades de la institución.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Más Información</button>
+                <button type="button" class="btn btn-sm btn-outline-secondary"><a href="contacto.html" class="blue-color">Contactanos</a></button>
                 </div>
               </div>
             </div>
@@ -295,10 +286,13 @@
             <img src="img/novedades/traslado-fb.jpg" style="width: 100%; height: 225," class="card-img-top">
             <!--{% include icons/placeholder.svg width="100%" height="225" background="#55595c" color="#eceeef" class="card-img-top" text="Thumbnail" %}-->
             <div class="card-body">
-              <p class="card-text">"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+              <p class="blue-color">¡Sumate como voluntario al área de traslado y visita a las instituciones!<br>Te contamos los pasos a seguir:<br>
+              1. Coordinamos un día y horario para que vengas a Casa Grande y carguemos las donaciones en tu auto.<br>
+              2. Luego de cargar las donaciones, irás junto a un miembro del equipo de Casa Grande a la institución pactada para entregar las mismas.<br>
+              3. Una vez allí, con la ayuda de los referentes de la institución, descargaremos las donaciones y luego nos quedaremos a compartir un momento junto a ellos.<br>¡Sumate a conocer los lugares que ayudamos y pasar un hermoso momento!</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Más Información</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary"><a href="content.html" class="blue-color">Contactanos</a></button>
                 </div>
               </div>
             </div>
@@ -306,13 +300,13 @@
         </div>
         <div class="col-md-4">
           <div class="card mb-4 shadow-sm">
-            <img src="img/campañas/regalo_A3_imprenta.jpg" style="width: 100%; height: 225," class="card-img-top">
+            <img src="img/novedades/01_regala_regalo_FB.jpg" style="width: 100%; height: 225," class="card-img-top">
             <!--{% include icons/placeholder.svg width="100%" height="225" background="#55595c" color="#eceeef" class="card-img-top" text="Thumbnail" %}-->
             <div class="card-body">
-              <p class="card-text">"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+              <p class="blue-color">Comienza la campaña solidaria "Regalos para Todos"<br>Te invitamos a sumarte donando algún regalo, nuevo o usado en muy buen estado, como juguetes, relojes, calzado, ropa, accesorios, etc.<br>Sumate y ayudanos a alegrar a los niños y adultos de las instituciones que ayudamos con motivo del festejo de fin de año.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Más Información</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary"><a href="contacto.html" class="blue-color">Contactanos</a></button>
                 </div>
               </div>
             </div>
@@ -325,12 +319,12 @@
 
       <!-- Projects section v.3 -->
 <section>
-  <hr class="my-3">
+  <hr class="my-3" id="quienes">
 
   <!-- Section heading -->
-  <h2 class="h1-responsive font-weight-bold text-center my-4">Quienes somos</h2>
+  <h2 class="h1-responsive font-weight-bold text-center my-4 blue-color">Quienes somos</h2>
   <!-- Section description -->
-  <p class="grey-text text-center w-responsive mx-auto mb-5"><strong>Fundación Casa Grande</strong> es una organización sin fines de lucro que desde el 2012 trabaja para acompañar a distintas instituciones y familias en situación de vulnerabilidad social.</p>
+  <p class="text-center w-responsive mx-auto mb-5 blue-color"><strong>Fundación Casa Grande</strong> es una organización sin fines de lucro que desde el 2012 trabaja para acompañar a distintas instituciones y familias en situación de vulnerabilidad social.</p>
 
   <!-- Grid row -->
   <div class="row">
@@ -397,7 +391,7 @@
       <!-- Grid row -->
       <div class="row mb-3">
         <div class="col-md-11 col-10">
-          <p class="grey-text">Desde Casa Grande nos comprometemos con la realidad que Argentina tiene día a día. Luchamos para revertirla, acompañando a más de 150 instituciones. Algunas son hogares, otras comedores, hospitales,  agrupaciones solidarias y escuelas rurales que se encuentran a lo largo y ancho de todo el país.</p>
+          <p class="blue-color">Desde Casa Grande nos comprometemos con la realidad que Argentina tiene día a día. Luchamos para revertirla, acompañando a más de 150 instituciones. Algunas son hogares, otras comedores, hospitales,  agrupaciones solidarias y escuelas rurales que se encuentran a lo largo y ancho de todo el país.</p>
         </div>
       </div>
       <!-- Grid row -->
@@ -405,7 +399,7 @@
       <!-- Grid row -->
       <div class="row mb-3">
         <div class="col-md-11 col-10">
-          <p class="grey-text">Nos encargamos de recolectar donaciones, clasificarlas y seleccionar cuidadosamente su destino, personalizando cada entrega para quien lo reciba (conociendo sus necesidades y sus intereses). También nos ocupamos de llevarlas y compartir un lindo momento con las personas que estamos ayudando.</p>
+          <p class="blue-color">Nos encargamos de recolectar donaciones, clasificarlas y seleccionar cuidadosamente su destino, personalizando cada entrega para quien lo reciba (conociendo sus necesidades y sus intereses). También nos ocupamos de llevarlas y compartir un lindo momento con las personas que estamos ayudando.</p>
         </div>
       </div>
       <!-- Grid row -->
@@ -413,7 +407,7 @@
       <!-- Grid row -->
       <div class="row">
         <div class="col-md-11 col-10">
-          <p class="grey-text mb-0">Realizamos distintos proyectos junto a escuelas, clubes y empresas con el objetivo de concientizar sobre la ayuda que podemos brindar a quienes lo necesitan y fomentar el trabajo voluntario.</p>
+          <p class="mb-0 blue-color">Realizamos distintos proyectos junto a escuelas, clubes y empresas con el objetivo de concientizar sobre la ayuda que podemos brindar a quienes lo necesitan y fomentar el trabajo voluntario.</p>
         </div>
       </div>
       <!-- Grid row -->
@@ -438,11 +432,11 @@
           <i class="far fa-hand-point-right fa-2x indigo-text"></i>
         </div>
         <div class="col-md-11 col-10">
-          <h5 class="font-weight-bold mb-3">Visión</h5>
+          <h5 class="font-weight-bold mb-3 blue-color">Visión</h5>
           <ul>
-         <li><p class="grey-text">Ser promotores de la cultura de la solidaridad como forma de vida.</p></li>
-         <li><p class="grey-text">Ser creadores de redes solidarias con otras organizaciones asociaciones y fundaciones que trabajen en conjunto.</p></li>
-         <li><p class="grey-text">Ser formadores de grupos sólidos de voluntarios.</p></li>
+         <li><p class="blue-color">Ser promotores de la cultura de la solidaridad como forma de vida.</p></li>
+         <li><p class="blue-color">Ser creadores de redes solidarias con otras organizaciones asociaciones y fundaciones que trabajen en conjunto.</p></li>
+         <li><p class="blue-color">Ser formadores de grupos sólidos de voluntarios.</p></li>
        </ul>
         </div>
       </div>
@@ -454,8 +448,8 @@
           <i class="far fa-handshake fa-2x pink-text"></i>
         </div>
         <div class="col-md-11 col-10">
-          <h5 class="font-weight-bold mb-3">Valores</h5>
-          <p class="grey-text">Aspiramos a que todas las personas que integran Fundación Casa Grande puedan representar y reflejar los siguientes valores:  compromiso, solidaridad, amor, alegría, servicio, transparencia, acción y  positivismo.</p>
+          <h5 class="font-weight-bold mb-3 blue-color">Valores</h5>
+          <p class="blue-color">Aspiramos a que todas las personas que integran Fundación Casa Grande puedan representar y reflejar los siguientes valores:  compromiso, solidaridad, amor, alegría, servicio, transparencia, acción y  positivismo.</p>
         </div>
       </div>
       <!-- Grid row -->
@@ -530,7 +524,7 @@
       <!--Section: Not enough-->
       <section>
 
-        <h2 class="h1-responsive font-weight-bold text-center my-4">¿Cómo colaborar?</h2>
+        <h2 class="h1-responsive font-weight-bold text-center my-4 blue-color">¿Cómo colaborar?</h2>
 
         <!--First row-->
         <div class="row features-small mb-5 mt-3 wow fadeIn how-to-color">
@@ -543,8 +537,8 @@
                 <i class="fas fa-check-circle fa-2x indigo-text"></i>
               </div>
               <div class="col-10">
-                <h6 class="feature-title"><strong>Asociate a Fundación Casa Grande</strong></h6>
-                <p>De manera rápida, fácil y segura, todos los meses a través de<a href="https://donaronline.org/fundacion-casa-grande-solidario/hacete-socio-de-fundacion-casa-grande-solidario" target="_blank" data-content="https://donaronline.org/fundacion-casa-grande-solidario/hacete-socio-de-fundacion-casa-grande-solidario" data-type="external" role="button" id="j1s58qk1link" class="g-transparent-a style-j8oltw2klink"><wix-image data-has-bg-scroll-effect="" data-image-info="{&quot;imageData&quot;:{&quot;type&quot;:&quot;Image&quot;,&quot;id&quot;:&quot;c2es&quot;,&quot;metaData&quot;:{&quot;pageId&quot;:&quot;ctzx&quot;,&quot;isPreset&quot;:true,&quot;schemaVersion&quot;:&quot;2.0&quot;,&quot;isHidden&quot;:false},&quot;title&quot;:&quot;&quot;,&quot;uri&quot;:&quot;5ce0f0_0d01669ff1d2471ca9aed85438964a44~mv2.png&quot;,&quot;description&quot;:&quot;&quot;,&quot;width&quot;:257,&quot;height&quot;:78,&quot;alt&quot;:&quot;&quot;,&quot;displayMode&quot;:&quot;full&quot;},&quot;containerId&quot;:&quot;j29ckw9v&quot;,&quot;displayMode&quot;:&quot;full&quot;}" id="j29ckw9vimg" class="ca1img" style="width: 96px; height: 29px;" data-src="https://static.wixstatic.com/media/5ce0f0_0d01669ff1d2471ca9aed85438964a44~mv2.png/v1/fill/w_96,h_29,al_c,q_80,usm_0.66_1.00_0.01/5ce0f0_0d01669ff1d2471ca9aed85438964a44~mv2.webp" data-is-svg="false"><img id="j29ckw9vimgimage" alt="" data-type="image" itemprop="image" style="width: 96px; height: 29px; object-fit: contain;" src="https://static.wixstatic.com/media/5ce0f0_0d01669ff1d2471ca9aed85438964a44~mv2.png/v1/fill/w_96,h_29,al_c,q_80,usm_0.66_1.00_0.01/5ce0f0_0d01669ff1d2471ca9aed85438964a44~mv2.webp"></wix-image></a>
+                <h6 class="feature-title blue-color"><strong>Asociate a Fundación Casa Grande</strong></h6>
+                <p class="blue-color">De manera rápida, fácil y segura, todos los meses a través de<a href="https://donaronline.org/fundacion-casa-grande-solidario/hacete-socio-de-fundacion-casa-grande-solidario" target="_blank" data-content="https://donaronline.org/fundacion-casa-grande-solidario/hacete-socio-de-fundacion-casa-grande-solidario" data-type="external" role="button" id="j1s58qk1link" class="g-transparent-a style-j8oltw2klink"><wix-image data-has-bg-scroll-effect="" data-image-info="{&quot;imageData&quot;:{&quot;type&quot;:&quot;Image&quot;,&quot;id&quot;:&quot;c2es&quot;,&quot;metaData&quot;:{&quot;pageId&quot;:&quot;ctzx&quot;,&quot;isPreset&quot;:true,&quot;schemaVersion&quot;:&quot;2.0&quot;,&quot;isHidden&quot;:false},&quot;title&quot;:&quot;&quot;,&quot;uri&quot;:&quot;5ce0f0_0d01669ff1d2471ca9aed85438964a44~mv2.png&quot;,&quot;description&quot;:&quot;&quot;,&quot;width&quot;:257,&quot;height&quot;:78,&quot;alt&quot;:&quot;&quot;,&quot;displayMode&quot;:&quot;full&quot;},&quot;containerId&quot;:&quot;j29ckw9v&quot;,&quot;displayMode&quot;:&quot;full&quot;}" id="j29ckw9vimg" class="ca1img" style="width: 96px; height: 29px;" data-src="https://static.wixstatic.com/media/5ce0f0_0d01669ff1d2471ca9aed85438964a44~mv2.png/v1/fill/w_96,h_29,al_c,q_80,usm_0.66_1.00_0.01/5ce0f0_0d01669ff1d2471ca9aed85438964a44~mv2.webp" data-is-svg="false"><img id="j29ckw9vimgimage" alt="" data-type="image" itemprop="image" style="width: 96px; height: 29px; object-fit: contain;" src="https://static.wixstatic.com/media/5ce0f0_0d01669ff1d2471ca9aed85438964a44~mv2.png/v1/fill/w_96,h_29,al_c,q_80,usm_0.66_1.00_0.01/5ce0f0_0d01669ff1d2471ca9aed85438964a44~mv2.webp"></wix-image></a>
                 </p>
                 <div style="height:15px"></div>
               </div>
@@ -557,16 +551,16 @@
                 <i class="fas fa-check-circle fa-2x indigo-text"></i>
               </div>
               <div class="col-10">
-                <h6 class="feature-title"><strong>Donaciones</strong></h6>
+                <h6 class="feature-title blue-color"><strong>Donaciones</strong></h6>
                 <p>
                   <ul>
-                    <li><p> Depósito en efectivo, cheque o transferencia.
+                    <li><p class="blue-color"> Depósito en efectivo, cheque o transferencia.
                     Fundación Casa Grande
                     Banco Credicoop
                     Suc. 006
                     Cuenta corriente en pesos 14053/5
                     CBU 1910006355000601405350</p></li>
-                    <li><p>Donación por única vez de manera rápida, fácil y segura, a través de <a href="https://donaronline.org/fundacion-casa-grande-solidario/hacete-socio-de-fundacion-casa-grande-solidario" target="_blank" data-content="https://donaronline.org/fundacion-casa-grande-solidario/hacete-socio-de-fundacion-casa-grande-solidario" data-type="external" role="button" id="j1s58qk1link" class="g-transparent-a style-j8oltw2klink"><wix-image data-has-bg-scroll-effect="" data-image-info="{&quot;imageData&quot;:{&quot;type&quot;:&quot;Image&quot;,&quot;id&quot;:&quot;c2es&quot;,&quot;metaData&quot;:{&quot;pageId&quot;:&quot;ctzx&quot;,&quot;isPreset&quot;:true,&quot;schemaVersion&quot;:&quot;2.0&quot;,&quot;isHidden&quot;:false},&quot;title&quot;:&quot;&quot;,&quot;uri&quot;:&quot;5ce0f0_0d01669ff1d2471ca9aed85438964a44~mv2.png&quot;,&quot;description&quot;:&quot;&quot;,&quot;width&quot;:257,&quot;height&quot;:78,&quot;alt&quot;:&quot;&quot;,&quot;displayMode&quot;:&quot;full&quot;},&quot;containerId&quot;:&quot;j29ckw9v&quot;,&quot;displayMode&quot;:&quot;full&quot;}" id="j29ckw9vimg" class="ca1img" style="width: 96px; height: 29px;" data-src="https://static.wixstatic.com/media/5ce0f0_0d01669ff1d2471ca9aed85438964a44~mv2.png/v1/fill/w_96,h_29,al_c,q_80,usm_0.66_1.00_0.01/5ce0f0_0d01669ff1d2471ca9aed85438964a44~mv2.webp" data-is-svg="false"><img id="j29ckw9vimgimage" alt="" data-type="image" itemprop="image" style="width: 96px; height: 29px; object-fit: contain;" src="https://static.wixstatic.com/media/5ce0f0_0d01669ff1d2471ca9aed85438964a44~mv2.png/v1/fill/w_96,h_29,al_c,q_80,usm_0.66_1.00_0.01/5ce0f0_0d01669ff1d2471ca9aed85438964a44~mv2.webp"></wix-image></a></p></li>
+                    <li><p class="blue-color">Donación por única vez de manera rápida, fácil y segura, a través de <a href="https://donaronline.org/fundacion-casa-grande-solidario/hacete-socio-de-fundacion-casa-grande-solidario" target="_blank" data-content="https://donaronline.org/fundacion-casa-grande-solidario/hacete-socio-de-fundacion-casa-grande-solidario" data-type="external" role="button" id="j1s58qk1link" class="g-transparent-a style-j8oltw2klink"><wix-image data-has-bg-scroll-effect="" data-image-info="{&quot;imageData&quot;:{&quot;type&quot;:&quot;Image&quot;,&quot;id&quot;:&quot;c2es&quot;,&quot;metaData&quot;:{&quot;pageId&quot;:&quot;ctzx&quot;,&quot;isPreset&quot;:true,&quot;schemaVersion&quot;:&quot;2.0&quot;,&quot;isHidden&quot;:false},&quot;title&quot;:&quot;&quot;,&quot;uri&quot;:&quot;5ce0f0_0d01669ff1d2471ca9aed85438964a44~mv2.png&quot;,&quot;description&quot;:&quot;&quot;,&quot;width&quot;:257,&quot;height&quot;:78,&quot;alt&quot;:&quot;&quot;,&quot;displayMode&quot;:&quot;full&quot;},&quot;containerId&quot;:&quot;j29ckw9v&quot;,&quot;displayMode&quot;:&quot;full&quot;}" id="j29ckw9vimg" class="ca1img" style="width: 96px; height: 29px;" data-src="https://static.wixstatic.com/media/5ce0f0_0d01669ff1d2471ca9aed85438964a44~mv2.png/v1/fill/w_96,h_29,al_c,q_80,usm_0.66_1.00_0.01/5ce0f0_0d01669ff1d2471ca9aed85438964a44~mv2.webp" data-is-svg="false"><img id="j29ckw9vimgimage" alt="" data-type="image" itemprop="image" style="width: 96px; height: 29px; object-fit: contain;" src="https://static.wixstatic.com/media/5ce0f0_0d01669ff1d2471ca9aed85438964a44~mv2.png/v1/fill/w_96,h_29,al_c,q_80,usm_0.66_1.00_0.01/5ce0f0_0d01669ff1d2471ca9aed85438964a44~mv2.webp"></wix-image></a></p></li>
                   </ul>
                 </p>
                 <div style="height:15px"></div>
@@ -574,23 +568,7 @@
             </div>
             <!--/Second row-->
 
-            <!--Third row-->
-            <div class="row">
-              <div class="col-2">
-                <i class="fas fa-check-circle fa-2x indigo-text"></i>
-              </div>
-              <div class="col-10">
-                <h6 class="feature-title"><strong>¿Querés donar ropa y calzado? Tené en cuenta las siguientes recomendaciones</strong></h6>
-                <p><ul>
-                  <li><p>Limpio!</p></li>
-                  <li><p>En buen estado</p></li>
-                  <li><p>Si donás calzado, verificá que esté el par y sus cordones correspondientes.</p></li>
-                  <li><p> Por razones de higiene, no donar ropa interior usada.</p></li>
-                </ul></p>
-                <div style="height:15px"></div>
-              </div>
-            </div>
-            <!--/Third row-->
+        
 
           </div>
           <!--/First column-->
@@ -605,7 +583,7 @@
                 <i class="fas fa-check-circle fa-2x indigo-text"></i>
               </div>
               <div class="col-10">
-                <p>Si formás parte de una institución y querés realizar una campaña solidaria junto a Fundación Casa Grande para ayudar a una escuela, hogar, comedor, u otra organización que necesite ayuda, comunicate con nosotros y planificamos una acción en conjunto.
+                <p class="blue-color">Si formás parte de una institución y querés realizar una campaña solidaria junto a Fundación Casa Grande para ayudar a una escuela, hogar, comedor, u otra organización que necesite ayuda, comunicate con nosotros y planificamos una acción en conjunto.
                 <div style="height:15px"></div>
               </div>
             </div>
@@ -617,39 +595,29 @@
                 <i class="fas fa-check-circle fa-2x indigo-text"></i>
               </div>
               <div class="col-10">
-                <h6 class="feature-title"><strong>¿Querés donar juguetes? Tené en cuenta estas recomendaciones</strong></h6>
-                <p><ul>
-                  <li><p>Doná siempre juguetes en buen estado y limpios.</p></li>
-                  <li><p>Si tienen piezas, verificá que estén completos.</p></li>
-                </ul></p>
-                <p>Seleccioná junto a tus hijos los juguetes que van a donar. Esta actividad fomenta en nuestros pequeños los valores como la solidaridad y la empatía.</p>
-                <div style="height:15px"></div>
-              </div>
+              
+             <iframe width="400" height="200" src="https://www.youtube.com/embed/AErN5B9TR_M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+           </div>
             </div>
             <!--/Second row-->
 
-            <!--Third row-->
-            <div class="row">
-              <div class="col-2">
-                <i class="fas fa-check-circle fa-2x indigo-text"></i>
-              </div>
-              <div class="col-10">
-                <p>También recibimos: sábanas, frazadas, toallas, elementos de higiene, juguetes, libros de cuentos infantiles y útiles escolares.
-                </p>
-                <div style="height:15px"></div>
-              <video class="video-fluid z-depth-1" autoplay loop controls muted>
-              <source src="video/Como-Donar-Casa-Grande.avi" type="video/avi" />
-              </video>
-            </div>
-            </div>
-            <!--/Third row-->
+            
 
           </div>
           <!--/Third column-->
 
+          <div class="row">
+          <div class="col-lg-6 col-md-12 mb-4 px-2">
+            <img src="img/fotos/como_donar.jpg" class="img-fluid z-depth-1" alt="Como Donar">
+          </div>
+          <div class="col-lg-6 col-md-12 mb-4 px-2">
+            <img src="img/fotos/como_donar_juguetes.jpg" class="img-fluid z-depth-1" alt="Como Donar Juguetes">
+          </div>
         </div>
-        <!--/First row-->
 
+
+        </div>
+        
       </section>
       <!--Section: Not enough-->
 
@@ -659,8 +627,8 @@
       <section>
 
 
-        <h2 class="h1-responsive font-weight-bold text-center my-4">Nos acompañan</h2>
-        <h3 class="my-4 h4 text-center">Empresas que nos acompañan</h3>
+        <h2 class="h1-responsive font-weight-bold text-center my-4 blue-color">Nos acompañan</h2>
+        <h3 class="my-4 h4 text-center blue-color">Empresas</h3>
         
 
                                 <div id="carousel3d">
@@ -781,7 +749,7 @@
                         
                        
 
-        <h3 class="my-5 h4 text-center">Instituciones que nos acompañan</h3>
+        <h3 class="my-5 h4 text-center blue-color">Instituciones</h3>
         <carousel-3d :perspective="0" :space="200" :display="5" :controls-visible="true" :controls-prev-html="'❬'" :controls-next-html="'❭'" :controls-width="30" :controls-height="60" :clickable="true" :autoplay="true" :autoplay-timeout="5000">
                             <slide :index="0">
                              <a href="https://www.colegioaletheia.esc.edu.ar/" target="_blank"><img src="img/instituciones/50años.jpg"></a>
@@ -891,16 +859,19 @@
           <a href="index.html">Inicio</a>
         </p>
         <p>
-          <a href="voluntariado-corporativo.html">Voluntariado corporativo</a>
+          <a href="#quienes">Quienes somos</a>
         </p>
         <p>
           <a href="campañas.html">Campañas</a>
         </p>
         <p>
-          <a href="taller-rodante.html">Taller Rodante</a>
+          <a href="a-quienes-ayudamos.html">A quienes ayudamos</a>
         </p>
         <p>
-          <a href="a-quienes-ayudamos.html">A quienes ayudamos</a>
+          <a href="galerias/taller-rodante.html">Taller Rodante</a>
+        </p>
+        <p>
+          <a href="galerias/voluntariado-corporativo.html">Voluntariado corporativo</a>
         </p>
         <p>
           <a href="contacto.html">Contacto</a>
@@ -919,17 +890,17 @@
       <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
         <h6 class="text-uppercase mb-4 font-weight-bold">Contacto</h6>
         <p>
-          <i class="fas fa-home mr-3"></i>Buenos Aires, Argentina</p>
+          <i class="fas fa-home mr-2"></i>Buenos Aires, Argentina</p>
         <p>
-          <i class="fas fa-calendar-alt mr-3"></i>Lunes a Viernes de 8 a 16hs</p>
+          <i class="fas fa-calendar-alt mr-2"></i>Lunes a Viernes de 8 a 16hs</p>
         <p>
-          <i class="fas fa-clock mr-3"></i>Recepción de donaciones de 9:30 a 15:30hs</p>
+          <i class="fas fa-clock mr-2"></i>Recepción de donaciones de 9:30 a 15:30hs</p>
         <p>
-          <i class="fas fa-envelope mr-3"></i><a href="mailto:info@fundacioncasagrande.com.ar">info@fundacioncasagrande.com.ar</a></p>
+          <i class="fas fa-envelope mr-2"></i><a href="mailto:info@fundacioncasagrande.com.ar">info@fundacioncasagrande.com.ar</a></p>
         <p>
-          <i class="fas fa-phone mr-3"></i>(011) 3221-4881</p>
+          <i class="fas fa-phone mr-2"></i>(011) 3221-4881</p>
         <p>
-          <i class="fas fa-phone mr-3"></i><a href="https://wa.me/541123231537?text=Hola, quisiera contactarme con ustedes.">(011)152-323-1537</a></p>
+          <i class="fas fa-phone mr-2"></i><a href="https://wa.me/541123231537?text=Hola, quisiera contactarme con ustedes.">(011)152-323-1537</a></p>
       </div>
       <!-- Grid column -->
 

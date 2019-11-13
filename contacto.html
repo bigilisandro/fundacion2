@@ -17,11 +17,7 @@
    <!-- Logo Pestaña -->
   <link rel="icon" type="image/png" href="img/logo.png">
   <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-  <script src='//production-assets.codepen.io/assets/common/stopExecutionOnTimeout-b2a7b3fe212eaa732349046d8416e00a9dec26eb7fd347590fbced3ab38af52e.js'></script>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.7/vue.js'></script>
-  <script src='https://rawgit.com/Wlada/vue-carousel-3d/master/dist/vue-carousel-3d.min.js'></script>
+  
   <style type="text/css">
     html,
     body,
@@ -81,24 +77,25 @@
         <!-- Links -->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-          <!-- Left -->
+         <!-- Left -->
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
               <a class="nav-link" href="index.html">INICIO
                 <span class="sr-only">(current)</span>
               </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="voluntariado-corporativo.html">Voluntariado corporativo</a>
+              </li>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="campañas.html">Campañas</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="taller-rodante.html">Taller Rodante</a>
+              <a class="nav-link" href="galerias/a-quienes-ayudamos.html">A quienes ayudamos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="a-quienes-ayudamos.html">A quienes ayudamos</a>
+              <a class="nav-link" href="galerias/taller-rodante.html">Taller Rodante</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="galerias/voluntariado-corporativo.html">Voluntariado corporativo</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="contacto.html">Contacto</a>
@@ -157,7 +154,7 @@
     <!-- Grid column -->
     <div class="col-md-9 mb-md-0 mb-5">
 
-      <form>
+      <form action="mail.php" method="POST">
 
         <!-- Grid row -->
         <div class="row">
@@ -165,7 +162,7 @@
           <!-- Grid column -->
           <div class="col-md-6">
             <div class="md-form mb-0">
-              <input type="text" id="contact-name" class="form-control">
+              <input type="text" id="contact-name" class="form-control" required="">
               <label for="contact-name" class="">Nombre y Apellido</label>
             </div>
           </div>
@@ -174,7 +171,7 @@
           <!-- Grid column -->
           <div class="col-md-6">
             <div class="md-form mb-0">
-              <input type="text" id="contact-email" class="form-control">
+              <input type="text" id="contact-email" class="form-control" required="">
               <label for="contact-email" class="">Email</label>
             </div>
           </div>
@@ -189,7 +186,7 @@
           <!-- Grid column -->
           <div class="col-md-6">
             <div class="md-form mb-0">
-                <input type="text" id="form-contact-phone" class="form-control">
+                <input type="text" id="form-contact-phone" class="form-control" required="">
                 <label for="form-contact-phone" class="">Teléfono</label>
           </div>
         </div>
@@ -198,7 +195,7 @@
           <!-- Grid column -->
           <div class="col-md-6">
             <div class="md-form mb-0">
-              <input type="text" id="contact-Subject" class="form-control">
+              <input type="text" id="contact-Subject" class="form-control" required="">
               <label for="contact-Subject" class="">Asunto</label>
             </div>
           </div>
@@ -213,7 +210,7 @@
           <!-- Grid column -->
           <div class="col-md-12">
             <div class="md-form">
-              <textarea id="contact-message" class="form-control md-textarea" rows="3"></textarea>
+              <textarea id="contact-message" class="form-control md-textarea" rows="3" required=""></textarea>
               <label for="contact-message">Tu mensaje</label>
             </div>
           </div>
@@ -222,11 +219,13 @@
         </div>
         <!-- Grid row -->
 
+         <div class="text-center text-md-left">
+        <button class="btn btn-primary btn-md" type="submit">Enviar</button>
+      </div>
+
       </form>
 
-      <div class="text-center text-md-left">
-        <a class="btn btn-primary btn-md">Enviar</a>
-      </div>
+     
 
     </div>
     <!-- Grid column -->
@@ -291,16 +290,16 @@
           <a href="index.html">Inicio</a>
         </p>
         <p>
-          <a href="voluntariado-corporativo.html">Voluntariado corporativo</a>
-        </p>
-        <p>
           <a href="campañas.html">Campañas</a>
         </p>
         <p>
-          <a href="taller-rodante.html">Taller Rodante</a>
+          <a href="a-quienes-ayudamos.html">A quienes ayudamos</a>
         </p>
         <p>
-          <a href="a-quienes-ayudamos.html">A quienes ayudamos</a>
+          <a href="galerias/taller-rodante.html">Taller Rodante</a>
+        </p>
+        <p>
+          <a href="galerias/voluntariado-corporativo.html">Voluntariado corporativo</a>
         </p>
         <p>
           <a href="contacto.html">Contacto</a>
@@ -319,17 +318,17 @@
       <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
         <h6 class="text-uppercase mb-4 font-weight-bold">Contacto</h6>
         <p>
-          <i class="fas fa-home mr-3"></i>Buenos Aires, Argentina</p>
+          <i class="fas fa-home mr-2"></i>Buenos Aires, Argentina</p>
         <p>
-          <i class="fas fa-calendar-alt mr-3"></i>Lunes a Viernes de 8 a 16hs</p>
+          <i class="fas fa-calendar-alt mr-2"></i>Lunes a Viernes de 8 a 16hs</p>
         <p>
-          <i class="fas fa-clock mr-3"></i>Recepción de donaciones de 9:30 a 15:30hs</p>
+          <i class="fas fa-clock mr-2"></i>Recepción de donaciones de 9:30 a 15:30hs</p>
         <p>
-          <i class="fas fa-envelope mr-3"></i><a href="mailto:info@fundacioncasagrande.com.ar">info@fundacioncasagrande.com.ar</a></p>
+          <i class="fas fa-envelope mr-2"></i><a href="mailto:info@fundacioncasagrande.com.ar">info@fundacioncasagrande.com.ar</a></p>
         <p>
-          <i class="fas fa-phone mr-3"></i>(011) 3221-4881</p>
+          <i class="fas fa-phone mr-2"></i>(011) 3221-4881</p>
         <p>
-          <i class="fas fa-phone mr-3"></i><a href="https://wa.me/541123231537?text=Hola, quisiera contactarme con ustedes.">(011)152-323-1537</a></p>
+          <i class="fas fa-phone mr-2"></i><a href="https://wa.me/541123231537?text=Hola, quisiera contactarme con ustedes.">(011)152-323-1537</a></p>
       </div>
       <!-- Grid column -->
 
@@ -416,28 +415,7 @@
   <!-- MDB core JavaScript -->
   <script type="text/javascript" src="js/mdb.min.js"></script>
   <!-- Initializations -->
-  <script type="text/javascript">
 
-
-    // Animations initialization
-    new WOW().init();
- 
- // optional
-    $('#blogCarousel').carousel({
-        interval: 5000
-    });
-     new Vue({
-                          el: '#carousel3d',
-                          data: {
-                            slides: 35
-                          },
-                          components: {
-                            'carousel-3d': Carousel3d.Carousel3d,
-                            'slide': Carousel3d.Slide
-                          }
-                        })
-                        //# sourceURL=pen.js
-  </script>
 
 </body>
 

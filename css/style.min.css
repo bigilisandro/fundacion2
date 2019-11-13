@@ -41,14 +41,7 @@ background: #707070;
   fill: white; }
 
 .visible-when-content-ready1 {
-  visibility: visible !important; }
-
-.quienes {
-	background-color: #DECFE7;
-}
-.vision, .valores {
-	background-color: #E8E4C0;
-
+  visibility: visible !important; 
 }
 .mdb-color {
 	background-color: #929FBA!important;
@@ -154,4 +147,10 @@ column-width: 100%;
 padding-left: 1.1rem;
 padding-right: 1.1rem;
 }
+}
+.blue-color {
+  color: #5043A8;
+}
+.background-color {
+  background-color: #E3EAEE;
 }
