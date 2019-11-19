@@ -26,6 +26,9 @@
     .carousel {
       height: 60vh;
     }
+    .carousel2 {
+      height: 40vh;
+    }
 
     @media (max-width: 740px) {
 
@@ -34,6 +37,9 @@
       header,
       .carousel {
         height: 100vh;
+      }
+      .carousel2 {
+        height: 60vh;
       }
     }
 
@@ -44,6 +50,9 @@
       header,
       .carousel {
         height: 100vh;
+      }
+      .carousel2 {
+        height: 80vh;
       }
     }
 
@@ -318,10 +327,10 @@
       <!--Section: Main features & Quick Start-->
 
       <!-- Projects section v.3 -->
-<section>
-  <hr class="my-3" id="quienes">
+<section id="quienes">
+  <hr class="my-3">
 
-  <!-- Section heading -->
+  <!-- Section heading --> 
   <h2 class="h1-responsive font-weight-bold text-center my-4 blue-color">Quienes somos</h2>
   <!-- Section description -->
   <p class="text-center w-responsive mx-auto mb-5 blue-color"><strong>Fundación Casa Grande</strong> es una organización sin fines de lucro que desde el 2012 trabaja para acompañar a distintas instituciones y familias en situación de vulnerabilidad social.</p>
@@ -332,7 +341,7 @@
     <!-- Grid column -->
     <div class="col-lg-5">
       <!--Carousel Wrapper-->
-<div id="carousel-example-1z1" class="carousel slide carousel-fade" data-ride="carousel">
+<div id="carousel-example-1z1" class="carousel slide carousel-fade carousel2" data-ride="carousel">
   <!--Indicators-->
   <ol class="carousel-indicators">
     <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
@@ -461,7 +470,7 @@
     <!-- Grid column -->
     <div class="col-lg-5">
       <!--Carousel Wrapper-->
-<div id="carousel-example-1z2" class="carousel slide carousel-fade" data-ride="carousel">
+<div id="carousel-example-1z2" class="carousel slide carousel-fade carousel2" data-ride="carousel">
   <!--Indicators-->
   <ol class="carousel-indicators">
     <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
@@ -596,7 +605,7 @@
               </div>
               <div class="col-10">
               
-             <iframe width="400" height="200" src="https://www.youtube.com/embed/AErN5B9TR_M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+             <iframe src="https://www.youtube.com/embed/AErN5B9TR_M" frameborder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
            </div>
             </div>
             <!--/Second row-->
@@ -607,10 +616,10 @@
           <!--/Third column-->
 
           <div class="row">
-          <div class="col-lg-6 col-md-12 mb-4 px-2">
+          <div class="col-lg-6 col-md-12 col-mb-4">
             <img src="img/fotos/como_donar.jpg" class="img-fluid z-depth-1" alt="Como Donar">
           </div>
-          <div class="col-lg-6 col-md-12 mb-4 px-2">
+          <div class="col-lg-6 col-md-12 col-mb-4">
             <img src="img/fotos/como_donar_juguetes.jpg" class="img-fluid z-depth-1" alt="Como Donar Juguetes">
           </div>
         </div>
@@ -749,7 +758,7 @@
                         
                        
 
-        <h3 class="my-5 h4 text-center blue-color">Instituciones</h3>
+        <h3 class="my-4 h4 text-center blue-color">Instituciones</h3>
         <carousel-3d :perspective="0" :space="200" :display="5" :controls-visible="true" :controls-prev-html="'❬'" :controls-next-html="'❭'" :controls-width="30" :controls-height="60" :clickable="true" :autoplay="true" :autoplay-timeout="5000">
                             <slide :index="0">
                              <a href="https://www.colegioaletheia.esc.edu.ar/" target="_blank"><img src="img/instituciones/50años.jpg"></a>
