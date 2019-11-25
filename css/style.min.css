@@ -154,3 +154,19 @@ padding-right: 1.1rem;
 .background-color {
   background-color: #E3EAEE;
 }
+
+.portada-mobile{
+  display: none !important;
+}
+
+@media screen and (max-width: 768px) {
+  .portada{
+    display: none !important;
+  }
+  .portada-mobile{
+    display: inline-block !important;
+    margin-top: 40px;
+
+  }
+
+}
