@@ -149,10 +149,10 @@ padding-right: 1.1rem;
 }
 }
 .blue-color {
-  color: #5043A8;
+  color: #353979;
 }
 .background-color {
-  background-color: #E3EAEE;
+  background-color: #e6e2d6;
 }
 
 .portada-mobile{
@@ -169,4 +169,12 @@ padding-right: 1.1rem;
 
   }
 
+}
+.fondo {
+  background-color: #c5b8c2 !important;
+  color: #353979 !important;
+  border-radius: 10px;
+}
+.img-fondo {
+  opacity: 0.6;
 }
