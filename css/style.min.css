@@ -165,8 +165,15 @@ padding-right: 1.1rem;
   }
   .portada-mobile{
     display: inline-block !important;
-  
-
+  }
+  .fundacion {
+    font-size: 25px !important;
+  }
+  .btn-small {
+    padding: 0.25rem 0.5rem !important;
+  font-size: 0.875rem !important;
+  line-height: 1.5 !important;
+  border-radius: 0.2rem !important;
   }
 
 }
