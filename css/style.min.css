@@ -155,15 +155,15 @@ padding-right: 1.1rem;
   background-color: #e6e2d6;
 }
 
-.portada-mobile{
+.portada-mobile {
   display: none !important;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 740px) {
   .portada{
     display: none !important;
   }
-  .portada-mobile{
+  .portada-mobile {
     display: inline-block !important;
   }
   .fundacion {
